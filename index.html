@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index Page</title>
+</head>
+<body>
+    <p><strong><em>E = mc<sup>2</sup></em>,</strong> where <strong>E</strong> - energy of the object,</p>
+    <p><strong>m</strong> - its mass, <strong>c</strong> - speed of light in</p>
+    <p>vacuum, equals to 299 792 458<em> m/s.</em></p>
+
+    <label for="studentGroup">Select student group:</label>
+    <select id="studentGroup" name="studentGroup">
+        <option value="group1">Стоянов Даніл.</option>
+        <option value="group2">Мухін Єгор</option>
+        <option value="group3">Петронко Ілля</option>
+    </select>
+
+    <table border="1">
+        <caption>Зміст</caption>
+        <tr>
+            <th>Розділ</th>
+            <th>Сторінка</th>
+        </tr>
+        <tr>
+            <td><a href="page1.html#intro">Вступ</a></td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td><a href="page1.html#section1">Розділ 1</a></td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td><a href="page1.html#section2">Розділ 2</a></td>
+            <td>25</td>
+        </tr>
+        <tr>
+            <td><a href="page1.html#section3">Розділ 3</a></td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td><a href="page1.html#conclusion">Висновок</a></td>
+            <td>89</td>
+        </tr>
+    </table>
+
+    <form>
+        <label for="studentFirstName">First Name:</label>
+        <input type="text" id="studentFirstName" name="studentFirstName" required><br>
+
+        <label for="studentLastName">Last Name:</label>
+        <input type="text" id="studentLastName" name="studentLastName" required><br>
+
+        <label for="studentAge">Age:</label>
+        <input type="number" id="studentAge" name="studentAge" required><br>
+
+        <label for="studentEmail">Email:</label>
+        <input type="email" id="studentEmail" name="studentEmail" required><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
